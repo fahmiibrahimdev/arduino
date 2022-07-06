@@ -1,6 +1,6 @@
-const int maxDelay = 200;
-const int delayPinPositif = 1500;
-const int delayPinNegatif = delayPinPositif - maxDelay;
+const int maxDelay = 2000;
+const int delayPinPositif = 200;
+const int delayPinNegatif = maxDelay - delayPinPositif;
 
 void setup()
 {
@@ -12,5 +12,5 @@ void loop()
   digitalWrite(4, HIGH);
   delayMicroseconds(delayPinPositif);
   digitalWrite(4, LOW);
-  delayMicroseconds(maxDelay);
+  delayMicroseconds(delayPinNegatif);
 }
