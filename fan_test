@@ -12,5 +12,5 @@ void loop()
   digitalWrite(4, HIGH);
   delayMicroseconds(delayPinPositif);
   digitalWrite(4, LOW);
-  delayMicroseconds(delayPinNegatif);
+  delayMicroseconds(maxDelay);
 }
