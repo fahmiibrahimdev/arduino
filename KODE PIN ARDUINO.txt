@@ -1,4 +1,4 @@
-KODE PIN ARDUINO ESP8266 WI FI
+KODE PIN WEMOS D1 Mini ESP8266 WI-FI
 
 static const uint8_t D0   = 16;
 static const uint8_t D1   = 5;
